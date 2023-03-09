@@ -1,6 +1,8 @@
+import './container.css'
+
 export default function TopContainer(props) {
     return (
-        <div>
+        <div className='topcontainer'>
             {props.children}
         </div>
     )

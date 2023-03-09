@@ -1,0 +1,44 @@
+.logo {
+    padding-left: 30px;
+}
+
+.right_container {
+    display: flex;
+    padding-right: 30px;
+}
+
+.logo {
+    position: relative;
+    display: flex;
+    height: 60px;
+    padding-right: 30px;
+    align-items: center;
+    border-right: 1px solid #2F2727;
+}
+
+.logo .logo_text {
+    font-size: 24px;
+    font-weight: lighter;
+}
+
+.logo .text_bold {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.left_inside {
+    position: relative;
+    padding-right: 30px;
+    display: flex;
+    align-items: center;
+    padding-left: 30px;
+    border-left: 1px solid #2F2727;
+}
+
+.right_inside {
+    align-items: center;
+    display: flex;
+    padding-left: 30px;
+    border-left: 1px solid #2F2727;
+    height: 60px;
+}

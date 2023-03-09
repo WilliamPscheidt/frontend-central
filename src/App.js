@@ -12,12 +12,6 @@ function App() {
       <TopContainer>
         <TopMenu />
       </TopContainer>
-      <SidebarContainer>
-        <h2>Sidebar</h2>
-      </SidebarContainer>
-      <ContentContainer>
-        <h2>Content</h2>
-      </ContentContainer>
     </div>
   );
 }
