@@ -10,3 +10,11 @@ body {
     color: #FFFFFF;
     font-family: 'Roboto', sans-serif;
 }
+
+.root_page {
+    position: relative;
+    height: calc(100vh - 61px);
+    width: 100vw;
+    background-color: transparent;
+    display: flex;
+}

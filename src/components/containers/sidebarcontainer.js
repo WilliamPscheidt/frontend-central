@@ -1,6 +1,8 @@
+import "./container.css"
+
 export default function SidebarContainer(props) {
     return (
-        <div>
+        <div className="sidebar_container">
             {props.children}
         </div>
     )

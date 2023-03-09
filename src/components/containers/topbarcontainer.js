@@ -2,7 +2,7 @@ import './container.css'
 
 export default function TopContainer(props) {
     return (
-        <div className='topcontainer'>
+        <div className='top_container'>
             {props.children}
         </div>
     )

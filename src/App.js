@@ -5,6 +5,7 @@ import SidebarContainer from "./components/containers/sidebarcontainer";
 import ContentContainer from "./components/containers/contentcontainer";
 
 import TopMenu from "./components/menus/top";
+import SidebarMenu from "./components/menus/sidebar";
 
 function App() {
   return (
@@ -12,6 +13,14 @@ function App() {
       <TopContainer>
         <TopMenu />
       </TopContainer>
+      <div className="root_page">
+        <SidebarContainer>
+          <SidebarMenu />
+        </SidebarContainer>
+        <ContentContainer>
+          
+        </ContentContainer>
+      </div>
     </div>
   );
 }
