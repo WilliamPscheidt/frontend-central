@@ -30,50 +30,25 @@ const options = {
   responsive: true,
   maintainAspectRatio: false,
   scales: {
-      yAxes: {
-          ticks: {
-              display: false,
-              color: 'white',
-              font: {
-                  size: 16
-              },
-              beginAtZero: true,
-              stepSize: 20,
-          },
-          grid: {
-              display: false,
-              color: '#4F4F4F'
-          }
-      },
-      xAxes:
-      {
-          ticks: {
-              display: false,
-              color: '#fff',
-              font: {
-                  size: 16
-              },
-              beginAtZero: true,
-              stepSize: 20,
-          },
-          grid: {
-              display: false,
-              color: '#4F4F4F',
-          }
+    r: {
+      grid: {
+        color: '#4F4F4F',
+        lineWidth: 0.4,
       }
+    },
   },
   plugins: {
-      legend: {
-          display: true,
-          position: 'right',
-          align: 'start',
-          labels: {
-            color: "white"
-          }
+    legend: {
+      display: true,
+      position: 'right',
+      align: 'end',
+      labels: {
+        color: "white"
       }
+    }
   }
 };
 
 export default function Avaliacoes() {
-    return (<PolarArea data={data} options={options} />)
+  return (<PolarArea data={data} options={options} />)
 }

@@ -40,7 +40,7 @@ const options = {
             grid: {
                 display: true,
                 color: '#4F4F4F',
-                lineWidth: 0.1,
+                lineWidth: 0.4,
             },
         },
         x:
@@ -57,7 +57,7 @@ const options = {
             grid: {
                 display: true,
                 color: '#4F4F4F',
-                lineWidth: 0.1,
+                lineWidth: 0.4,
             }
         }
     },

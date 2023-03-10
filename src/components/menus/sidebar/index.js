@@ -8,7 +8,7 @@ export default function SidebarMenu() {
     return (
         <div className="menu_sidebar">
             <div className="top_menu">
-                <img src={MENU_ICON} alt="menu icon" className="icon"/>
+                <img src={MENU_ICON} alt="menu icon" className="icon_open_menu "/>
             </div>
             <div className="bottom_menu">
                 <img src={HELP_ICON} alt="menu icon" className="icon"/>
