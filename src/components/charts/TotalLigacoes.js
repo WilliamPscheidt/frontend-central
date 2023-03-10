@@ -9,7 +9,7 @@ import {
     Tooltip,
 } from 'chart.js';
 import {
-    Chart,
+    Bar,
 } from 'react-chartjs-2';
 
 ChartJS.register(
@@ -105,7 +105,7 @@ const data = {
 
 export default function TotalLigacoes() {
     return (
-        <Chart
+        <Bar
             type='bar'
             options={options}
             data={data}
