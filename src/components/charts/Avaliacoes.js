@@ -66,6 +66,10 @@ const options = {
       legend: {
           display: true,
           position: 'right',
+          align: 'start',
+          labels: {
+            color: "white"
+          }
       }
   }
 };
