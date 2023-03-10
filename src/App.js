@@ -23,8 +23,7 @@ function App() {
         </SidebarContainer>
         <ContentContainer>
           <div style={{"width": 500, "height": 300, "display": "flex"}}>
-            <TotalLigacoes />
-            <TotalLigacoes />
+
             <Avaliacoes />
           </div>
           
