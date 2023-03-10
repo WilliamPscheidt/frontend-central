@@ -24,12 +24,9 @@
     height: 100%;
     display: flex;
     justify-content: center;
-    flex-direction: row;
 }
 
 .content_internal {
-    margin-top: 80px;
-    width: calc(100% - 250px);
-    display: flex;
-    flex-direction: row;
+    margin-top: 90px;
+    width: calc(100% - 400px);
 }
