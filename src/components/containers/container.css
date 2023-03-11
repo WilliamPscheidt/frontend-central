@@ -54,3 +54,11 @@
         width: calc(100% - 40px);
     }
 }
+
+@media only screen and (max-width: 920px) {
+
+
+    .sidebar_container {
+        display: none;
+    }
+}

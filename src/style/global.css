@@ -116,6 +116,14 @@ body {
 }
 
 @media only screen and (max-width: 920px) {
+    .dashboard-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(380px, 1fr));
+        grid-template-rows: repeat(5, minmax(350px, 1fr));
+        grid-gap: 40px;
+        height: 100%;
+    }
+
     .chart-1 {
         grid-column: 1 / span 1;
         grid-row: 1 / span 1;
@@ -137,7 +145,7 @@ body {
     }
     
     .chart-5 {
-        grid-column: 1 / span 2;
+        grid-column: 1 / span 1;
         grid-row: 5 / span 1;
     }
 }
