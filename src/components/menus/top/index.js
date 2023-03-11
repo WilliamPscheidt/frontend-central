@@ -4,6 +4,7 @@ import Button from "../../resources/btn"
 import UserIcon from "../../../icons/user-icon.svg"
 import RefreshIcon from "../../../icons/refresh-icon.svg"
 import CalendarIcon from "../../../icons/calendar-icon.svg"
+import FilterIcon from "../../../icons/filter-icon.svg"
 
 export default function TopMenu() {
     return (
@@ -22,6 +23,9 @@ export default function TopMenu() {
                     <div className="checkbox-container">
                         <input type="checkbox"/>
                     </div>
+                </div>
+                <div className="mobile_controller">
+                    <img src={FilterIcon} alt="filter" className="mobile_filter_icon" />
                 </div>
             </div>
         </>

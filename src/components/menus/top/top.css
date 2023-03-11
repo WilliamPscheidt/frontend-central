@@ -61,6 +61,7 @@
     background-color: #181B18;
     position: relative;
     cursor: pointer;
+    transition: 0.5s ease-in-out;
 }
 
 .checkbox-container input[type='checkbox']:before {
@@ -72,6 +73,7 @@
     top: 0;
     left: 0;
     background-color: #ffffff86;
+    transition: 0.3s ease-in-out;
 }
 
 .checkbox-container input[type='checkbox']:checked {
@@ -86,4 +88,22 @@
 .text_atualization {
     margin-right: 20px;
     font-size: 16px;
+}
+
+.mobile_controller {
+    display: none;
+}
+
+@media only screen and (max-width: 1492px) {
+    .mobile_controller {
+        display: flex;
+    }
+
+    .left_inside {
+        display: none;
+    }
+
+    .right_inside {
+        display: none;
+    }
 }

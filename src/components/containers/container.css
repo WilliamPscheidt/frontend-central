@@ -29,4 +29,28 @@
 .content_internal {
     margin-top: 90px;
     width: calc(100% - 400px);
+    transition: 0.4s;
+}
+
+
+
+@media only screen and (max-width: 1693px) {
+    .content_internal {
+        margin-top: 90px;
+        width: calc(100% - 200px);
+    }
+}
+
+@media only screen and (max-width: 1495px) {
+    .content_internal {
+        margin-top: 90px;
+        width: calc(100% - 100px);
+    }
+}
+
+@media only screen and (max-width: 1393px) {
+    .content_internal {
+        margin-top: 90px;
+        width: calc(100% - 40px);
+    }
 }
